@@ -1,4 +1,4 @@
-# Resouce Manager
+# Path of Exile Resouce Manager
 
 This is a resource manager(RM) extension for Firefox for the game called Path of the Exile (PoE) which is a spin-off of Diablo
 before Daiblo III.
