@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Resource Manager</title>
+
+<meta http-equiv="Content-Language" content="en" />
+
+<link type="text/css" rel="stylesheet" media="screen"
+href="https://web.poecdn.com/css/https/screen.css?v=56bad24afb19c05d92ee442198e6e3cf">
+<link type="text/css" rel="stylesheet" media="screen" href="rem.css">
+
+</head>
+<body>
+
+<table id="T_main" style="empty-cells: show;" cellspacing="0">
+  <caption id="RM_caption"><h3><br />Resource Manager</h3></caption>
+  <tbody>
+    <tr>
+      <td>
+        <button id="Refresh_btn" type="button">Refresh</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div id="poe-popup-container"></div>
+<div id="colorbox" class="colorBoxPanelTheme inventoryManagerColorbox" style="padding-bottom: 42px; padding-right: 42px; display: block; top: 0px; left: 473px; position: absolute; width: 916px; height: 781px;">
+  <div id="cboxWrapper" style="height: 823px; width: 958px;">
+    <div>
+      <div id="cboxTopLeft" style="float: left;"></div>
+      <div id="cboxTopCenter" style="float: left; width: 916px;"></div>
+      <div id="cboxTopRight" style="float: left;"></div>
+    </div>
+    <div style="clear: left;">
+      <div id="cboxMiddleLeft" style="float: left; height: 781px;"></div>
+      <div id="cboxContent" style="float: left; width: 916px; height: 781px;">
+        <div id="cboxLoadedContent" style="display: block; width: 916px; overflow: auto; height: 781px;">
+          <div id="inventory-manager" class="inventoryManager">
+            <div class="inventoryManagerMenu">
+              <div class="inventoryButton showInventoryButton active"></div>
+              <div class="inventoryButton showStashButton"></div>
+              <div class="inventoryButton showSkillTreeButton"></div>
+              <div class="inventoryButton showMTXStashButton"></div>
+              <ul class="characters poeScroll">
+              </ul>
+            </div>
+            <div class="activePanel">
+              <div class="mainInventoryPanel">
+                <div class="weaponSwap1 left" style="display: block;"></div>
+                <div class="weaponSwap2 left" style="display: none;"></div>
+                <div class="weaponSwap1 right" style="display: block;"></div>
+                <div class="weaponSwap2 right" style="display: none;"></div>
+                <div class="weaponSwapMini left" style="display: block;"></div>
+                <div class="weaponSwapMini right" style="display: block;"></div>
+                <div class="newItemContainer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cboxLoadingOverlay" style="float: left; height: 781px; display: none;"></div>
+        <div id="cboxLoadingGraphic" style="float: left; height: 781px; display: none;"></div>
+        <div id="cboxTitle" style="float: left; display: block;"></div>
+        <div id="cboxCurrent" style="float: left; display: none;"></div>
+        <div id="cboxNext" style="float: left; display: none;"></div>
+        <div id="cboxPrevious" style="float: left; display: none;"></div>
+        <div id="cboxSlideshow" style="float: left; display: none;"></div>
+        <div id="cboxClose" style="float: left;">close</div>
+      </div>
+      <div id="cboxMiddleRight" style="float: left; height: 781px;"></div>
+    </div>
+    <div style="clear: left;">
+      <div id="cboxBottomLeft" style="float: left;"></div>
+      <div id="cboxBottomCenter" style="float: left; width: 916px;"></div>
+      <div id="cboxBottomRight" style="float: left;"></div>
+    </div>
+  </div>
+  <div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div>
+</div>
+</body>
+</html>
